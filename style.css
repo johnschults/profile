@@ -1,0 +1,71 @@
+.container {
+  background: #9abdce;
+  width: 80%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+body{
+  background: rgb(250,250,250);
+  color: rgb(20,20,20);
+  font-size: 20px;
+  font-family: 'Robotto', sans-serif;
+  line-height: 15px;
+  margin: 10px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: lighter;
+  line-height: 10px;
+  font-size: 35px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 15px;
+}
+a {
+  text-decoration: none;
+  color: #979797
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*Custom design */
+
+
+
